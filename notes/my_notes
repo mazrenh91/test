@@ -1,0 +1,33 @@
+to commit (run one by one):
+git add .
+git commit -m "your_comment"
+git push
+
+ensure to go to root directory before running that!
+
+to go back one folder:
+cd ..
+
+to go back 2 folders:
+cd .. / ..
+
+to go to next folder:
+cd <folder>
+
+to run python file:
+python3 <py file>
+
+to clear terminal:
+clear
+
+create virtual environment:
+python3 -m venv venv
+
+activate venv:
+source venv/bin/activate
+
+if hit error unauthorised access:
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+
+Create a requirements file:
+pip freeze > requirements.txt
