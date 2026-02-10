@@ -31,3 +31,10 @@ Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 
 Create a requirements file:
 pip freeze > requirements.txt
+
+MONGODB:
+mazrenh91_db_user
+SYVbMRiAYjUDMxjw
+
+python -m pip install "pymongo[srv]"
+mongodb+srv://mazrenh91_db_user:SYVbMRiAYjUDMxjw@cluster0.yqyukzu.mongodb.net/?appName=Cluster0
